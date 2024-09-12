@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style10.css">
+    <script src="script10.js" defer></script> <!-- וידוא שהסקריפט נטען לאחר טעינת ה-HTML -->
+</head>
+<body>
+    <div class="popup">
+        <input type="text" class="pop-input">
+        <button class="edit-btn">עדכון</button><button class="cansel-btn">ביטול</button>
+    </div>
+    <div class="body-container">
+        <h1 class="main-heading">משימות</h1>
+
+        <!-- שדה קלט להוספת משימה -->
+        <input id="todoInput" type="text" class="task-input" placeholder="הכנס משימה">
+
+        <!-- כפתור להוספת משימה -->
+        <button class="add-task-button" onclick="addTodo(event)">הוסף משימה</button>
+        <button class="filter" onclick="filterBtn()">filter</button>
+        <!-- הטבלה בה יוצגו המשימות -->
+        <table class="task-table">
+            <thead>
+                <tr>
+                    <th>מזהה</th>
+                    <th>משימה</th>
+                    <th>הושלם</th>
+                    <th>פעולות</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- כאן יתווספו שורות המשימות באופן דינמי -->
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

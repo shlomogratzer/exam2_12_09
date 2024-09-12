@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg, #f6d365, #fda085);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-container {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.main-heading {
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.task-input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add-task-button {
+    padding: 10px 20px;
+    background-color: #fda085;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.add-task-button:hover {
+    background-color: #f6d365;
+}
+
+.task-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: right;
+}
+
+.task-table th, .task-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+button {
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: #fda085;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f6d365;
+}
+.popup{
+    min-width: 300px;
+    min-height: 350px;
+    background-color: #5c22d185;
+    position: absolute;
+    position: fixed;
+    display: block;
+    display: flex;
+    justify-content: center;
+    display: none;
+    /* display: flex; */
+
+}
+.popup input{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+.popup button{
+    align-self: self-end;
+}

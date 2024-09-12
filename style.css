@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#time-todo ,#cancel-btn{
+    display: none;
+}
+form{
+    display: flex;
+    
+    flex-direction: column;
+    margin: 8px;
+}
+input,select{
+    margin: 12px;
+    padding: 5px;
+}
+form> button{
+    margin:8px 20px;
+    padding: 5px;
+
+}
+/* #div-form ,#table-area{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+} */

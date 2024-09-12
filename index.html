@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="main-window">
+        <div id="div-form">
+            <h2>BATTALION FORCE MANAGMENT</h2>
+            <div>
+                <form action="">
+                    <input type="text" id="name-input">
+                    <input type="text" id="rank-input">
+                    <input type="text" id="role-input">
+                    <input type="text" id="company-input">
+                    <select name="" id="status-option">
+                        <option value="">Active</option>
+                        <option value="">Reserve</option>
+                        <option value="">Retired</option>
+                    </select>
+                    <input type="text" id="time-todo">
+                    <button type="submit" id="submit-btn">Add Personel</button>
+                    <button id="cancel-btn">cancel</button>
+                </form>
+            </div>
+        </div>
+        <div id="table-area">
+            <h2>FORCES OVERVIEW</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>name</th>
+                        <th>rank</th>
+                        <th>role</th>
+                        <th>company</th>
+                        <th>status</th>
+                        <th>actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- כאן יתווספו שורות המשימות באופן דינמי -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
